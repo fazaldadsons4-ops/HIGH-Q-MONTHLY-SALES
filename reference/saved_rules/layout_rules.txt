@@ -1,0 +1,7 @@
+Saved standing rules for the monthly sales sheet (exact copy)
+
+- products must always be sorted A to Z, ignoring any leading 0/1/codes before the name
+- rate differences only after the decimal point (e.g. 219.00 / 219.10 / 219.55) count as the same rate - one row, one product name
+- names differing only by IV/INF etc. with same strength and ~same rate are the same product
+- Shifa (sum all its monthly POs) and Khan House orders go in at Nimra's rates or the most common saleable rate
+- value columns hidden; city's total value shown at the bottom under the units column, like his monthly format
