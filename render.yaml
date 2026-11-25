@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: high-q-pharma-suite
+    runtime: python
+    plan: free
+    branch: cloud-hosting
+    buildCommand: unzip -o HIGH-Q-PHARMA-CLOUD-DEPLOY.zip -d . && pip install -r requirements-cloud.txt
+    startCommand: streamlit run cloud_app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --server.enableCORS false --server.enableXsrfProtection true
+    healthCheckPath: /_stcore/health
